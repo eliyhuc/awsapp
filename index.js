@@ -244,7 +244,7 @@ const port = process.env.PORT;
 
 app.use("/api/users", (req,res) => {
     return res.status(200).json({
-        data: users
+        usersData: users
     })
 })
 
